@@ -1,10 +1,11 @@
-# TypeScript Boilerplate for Katas
+# TypeScript Katas
 
-You can use it for Coding-Dojos, Katas or **reference** to build a new project.
+This is a repo created with the intention to practice TDD and learn Typescript through the process.
+
+If you are interested to get a template like this, you can pick it from [the LeanMind repository](https://github.com/lean-mind/typescript-boilerplate).
 
 This boilerplate include:
 
-- 💬 TypeScript 3.6
-- 📙 Babel 7
-- ✅ Jest 24
-- 💅 Prettier & TSLint
+- 💬 TypeScript 4.9
+- ✅ Jest 29
+- 💅 ESLint
