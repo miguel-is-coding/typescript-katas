@@ -15,4 +15,13 @@ describe('getHighestNumber', () => {
         const numbers: Array<number> = [5, 5, 5]
         expect(highestNumber(numbers)).toEqual(5)
     });
+
+    it('should throw exception from an empty array', function () {
+        try {
+            const numbers: Array<number> = []
+            highestNumber(numbers)
+        } catch (e: any) {
+            expect(e.message).toBe("The inserted array is empty")
+        }
+    });
 })
